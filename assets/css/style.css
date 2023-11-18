@@ -2,7 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
+}
+
+html{
+    line-height: 150%;
 }
 
 header{
@@ -105,4 +109,23 @@ main section.flex-section2{
 footer{
     height: 500px;
     background-color: #23272a;
+    padding: 80px 200px 100px ;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer section ul{
+    list-style-type: none;
+}
+
+hr{
+    margin-block: 25px;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
 }
